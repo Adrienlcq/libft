@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isdigit.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: adlecler <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: adlecler <adlecler@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/24 16:23:22 by adlecler          #+#    #+#             */
-/*   Updated: 2021/11/24 16:43:02 by adlecler         ###   ########.fr       */
+/*   Updated: 2021/12/02 17:28:31 by adlecler         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,13 +15,6 @@
 int	ft_isdigit(int c)
 {
 	if (c >= '0' && c <= '9')
-		return (1);
-	return (0);
-}
-
-int main(int ac, char **av)
-{
-	if (!ft_isdigit(av[1][0]))
 		return (1);
 	return (0);
 }

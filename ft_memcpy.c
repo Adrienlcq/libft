@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memcpy.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: adlecler <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: adlecler <adlecler@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/25 14:22:04 by adlecler          #+#    #+#             */
-/*   Updated: 2021/11/26 11:19:48 by adlecler         ###   ########.fr       */
+/*   Updated: 2021/12/02 14:42:03 by adlecler         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,6 @@ void	*ft_memcpy(void *restrict dst, const void *restrict src, size_t n)
 
 	bufferdst = (char *)dst;
 	buffersrc = (char *)src;
-
 	while (n > 0)
 	{
 		bufferdst[n] = buffersrc[n];
@@ -27,4 +26,3 @@ void	*ft_memcpy(void *restrict dst, const void *restrict src, size_t n)
 	}
 	return (dst);
 }
-

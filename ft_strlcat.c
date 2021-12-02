@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strlcat.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: adlecler <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: adlecler <adlecler@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/25 15:51:42 by adlecler          #+#    #+#             */
-/*   Updated: 2021/11/25 16:05:18 by adlecler         ###   ########.fr       */
+/*   Updated: 2021/12/02 17:30:46 by adlecler         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,10 +31,10 @@ size_t	ft_strlcat(char *restrict dst, const char *restrict src, size_t dstsize)
 		res = res + i;
 	while (src[j] && (i + 1) < dstsize)
 	{
-			dst[i] = src[j];
-			i++;
-			j++;
+		dst[i] = src[j];
+		i++;
+		j++;
 	}
 	dst[i] = '\0';
-	return (res);	
+	return (res);
 }

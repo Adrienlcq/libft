@@ -6,7 +6,7 @@
 /*   By: adlecler <adlecler@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/02 18:56:44 by adlecler          #+#    #+#             */
-/*   Updated: 2021/12/03 14:07:47 by adlecler         ###   ########.fr       */
+/*   Updated: 2021/12/03 15:53:41 by adlecler         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,6 @@
 **"qwcb Hello World! bc"
 **"qwcb"
 **" Hello World! "
-** write(fd, var, len)
 */
 
 char	*ft_strjoin(char const *s1, char const *s2)

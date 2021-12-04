@@ -6,9 +6,16 @@
 /*   By: adlecler <adlecler@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/03 10:14:30 by adlecler          #+#    #+#             */
-/*   Updated: 2021/12/03 11:47:12 by adlecler         ###   ########.fr       */
+/*   Updated: 2021/12/04 12:31:51 by adlecler         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+** Alloue (avec malloc) et retourne une chaine de
+** caractères issue de la chaine ’s’.
+** Cette nouvelle chaine commence à l’index ’start’ et
+** a pour taille maximale ’len’.
+*/
 
 #include "libft.h"
 

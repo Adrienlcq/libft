@@ -6,9 +6,15 @@
 /*   By: adlecler <adlecler@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/02 14:21:52 by adlecler          #+#    #+#             */
-/*   Updated: 2021/12/02 17:30:00 by adlecler         ###   ########.fr       */
+/*   Updated: 2021/12/04 11:41:04 by adlecler         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+** La fonction ft_memchr() examine les n premiers octets de la zone mémoire
+** pointée par s à la recherche du caractère c.
+** Le premier octet correspondant à c arrête l'opération.
+*/
 
 #include "libft.h"
 

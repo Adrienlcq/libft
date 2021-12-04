@@ -6,9 +6,14 @@
 /*   By: adlecler <adlecler@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/02 15:27:48 by adlecler          #+#    #+#             */
-/*   Updated: 2021/12/02 17:32:35 by adlecler         ###   ########.fr       */
+/*   Updated: 2021/12/04 12:06:04 by adlecler         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+** La fonction ft_strchr() renvoie un pointeur sur la dernière occurrence
+** du caractère c dans la chaîne s.
+*/
 
 #include "libft.h"
 

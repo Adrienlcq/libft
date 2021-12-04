@@ -6,9 +6,15 @@
 /*   By: adlecler <adlecler@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/25 17:40:27 by adlecler          #+#    #+#             */
-/*   Updated: 2021/12/02 17:24:44 by adlecler         ###   ########.fr       */
+/*   Updated: 2021/12/04 11:29:48 by adlecler         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+** la fonction ft_calloc() alloue la mémoire nécessaire pour un tableau de
+** count éléments de taille size octets, et renvoie un pointeur
+** vers la mémoire allouée. Cette zone est remplie avec des zéros.
+*/
 
 #include "libft.h"
 

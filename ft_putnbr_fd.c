@@ -6,9 +6,14 @@
 /*   By: adlecler <adlecler@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/03 09:58:09 by adlecler          #+#    #+#             */
-/*   Updated: 2021/12/03 10:08:57 by adlecler         ###   ########.fr       */
+/*   Updated: 2021/12/04 12:01:45 by adlecler         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+** La fonction ft_putnbr_fd() permet d'afficher l'int n sur
+** le file descriptor donné.
+*/
 
 #include "libft.h"
 

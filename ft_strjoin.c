@@ -6,16 +6,16 @@
 /*   By: adlecler <adlecler@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/02 18:56:44 by adlecler          #+#    #+#             */
-/*   Updated: 2021/12/03 15:53:41 by adlecler         ###   ########.fr       */
+/*   Updated: 2021/12/04 12:16:40 by adlecler         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
 /*
-**"qwcb Hello World! bc"
-**"qwcb"
-**" Hello World! "
+** La fonction ft_strjoin() concatène les string s1 et s2 dans une nouvelle
+** string str. La mémoire occupée par cette nouvelle
+** chaîne est obtenue en appelant malloc.
 */
 
 char	*ft_strjoin(char const *s1, char const *s2)

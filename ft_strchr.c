@@ -6,9 +6,14 @@
 /*   By: adlecler <adlecler@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/02 15:22:07 by adlecler          #+#    #+#             */
-/*   Updated: 2021/12/02 17:30:07 by adlecler         ###   ########.fr       */
+/*   Updated: 2021/12/04 12:05:21 by adlecler         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+** La fonction ft_strchr() renvoie un pointeur sur la première occurrence
+** du caractère c dans la chaîne s.
+*/
 
 #include "libft.h"
 

@@ -6,9 +6,14 @@
 /*   By: adlecler <adlecler@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/03 09:55:50 by adlecler          #+#    #+#             */
-/*   Updated: 2021/12/03 10:04:31 by adlecler         ###   ########.fr       */
+/*   Updated: 2021/12/04 12:02:42 by adlecler         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+** La fonction ft_putendl_fd() permet d'afficher la string s sur
+** le file descriptor donné, suivie d'un retour à la ligne.
+*/
 
 #include "libft.h"
 

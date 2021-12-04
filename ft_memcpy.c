@@ -6,9 +6,16 @@
 /*   By: adlecler <adlecler@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/25 14:22:04 by adlecler          #+#    #+#             */
-/*   Updated: 2021/12/02 14:42:03 by adlecler         ###   ########.fr       */
+/*   Updated: 2021/12/04 11:52:08 by adlecler         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+** La fonction ft_memcpy() permet de copier un bloc de mémoire 
+** (sans chevauchement) spécifié par le paramètre src, et dont 
+** la taille est spécifiée via le paramètre n, dans un nouvel 
+** emplacement désigné par le paramètre dst.
+*/
 
 #include "libft.h"
 

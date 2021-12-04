@@ -1,14 +1,20 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   strnstr.c                                          :+:      :+:    :+:   */
+/*   ft_strnstr.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: adlecler <adlecler@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/03 12:17:27 by adlecler          #+#    #+#             */
-/*   Updated: 2021/12/03 15:25:54 by adlecler         ###   ########.fr       */
+/*   Updated: 2021/12/04 12:28:11 by adlecler         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+** La fonction ft_strnstr() cherche la première occurrence de la sous-chaîne
+** needle au sein de la chaîne haystack mais seulement pour les len premiers
+** caractères de haystack. Les caractères « \0 » de fin ne sont pas comparés.
+*/
 
 #include "libft.h"
 

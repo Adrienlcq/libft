@@ -6,9 +6,15 @@
 /*   By: adlecler <adlecler@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/02 14:23:14 by adlecler          #+#    #+#             */
-/*   Updated: 2021/12/02 17:29:57 by adlecler         ###   ########.fr       */
+/*   Updated: 2021/12/04 11:42:33 by adlecler         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+** La fonction ft_memcmp() compare les n premiers octets des zones mémoire
+** s1 et s2. Elle renvoie un entier inférieur, égal, ou supérieur à zéro,
+** si s1 est respectivement inférieure, égale ou supérieur à s2. 
+*/
 
 #include "libft.h"
 

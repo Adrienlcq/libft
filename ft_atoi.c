@@ -6,9 +6,14 @@
 /*   By: adlecler <adlecler@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/25 16:38:08 by adlecler          #+#    #+#             */
-/*   Updated: 2021/12/02 17:08:48 by adlecler         ###   ########.fr       */
+/*   Updated: 2021/12/04 11:24:37 by adlecler         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+** La fonction ft_atoi() convertit le début de la chaîne
+** pointée par str en entier de type int.
+*/
 
 #include "libft.h"
 

@@ -6,9 +6,15 @@
 /*   By: adlecler <adlecler@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/25 18:43:23 by adlecler          #+#    #+#             */
-/*   Updated: 2021/12/02 13:44:37 by adlecler         ###   ########.fr       */
+/*   Updated: 2021/12/04 12:11:21 by adlecler         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+** La fonction ft_strdup() renvoie un pointeur sur une nouvelle chaîne de
+** caractères qui est dupliquée depuis s1. La mémoire occupée par cette nouvelle
+** chaîne est obtenue en appelant malloc.
+*/
 
 #include "libft.h"
 

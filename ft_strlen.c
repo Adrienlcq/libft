@@ -6,9 +6,14 @@
 /*   By: adlecler <adlecler@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/02 17:32:06 by adlecler          #+#    #+#             */
-/*   Updated: 2021/12/02 18:25:46 by adlecler         ###   ########.fr       */
+/*   Updated: 2021/12/04 12:20:18 by adlecler         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+** La fonction ft_strlen() calcule la longueur de la chaîne de caractères s,
+** sans compter l'octet nul « \0 » final.
+*/
 
 #include "libft.h"
 

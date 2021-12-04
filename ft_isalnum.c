@@ -6,9 +6,13 @@
 /*   By: adlecler <adlecler@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/24 16:31:04 by adlecler          #+#    #+#             */
-/*   Updated: 2021/12/02 17:27:30 by adlecler         ###   ########.fr       */
+/*   Updated: 2021/12/04 11:31:34 by adlecler         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+** La fonction ft_isalnum() vérifie si l'on a un caractère alphanumérique.
+*/
 
 #include "libft.h"
 

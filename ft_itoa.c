@@ -6,9 +6,13 @@
 /*   By: adlecler <adlecler@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/04 09:16:28 by adlecler          #+#    #+#             */
-/*   Updated: 2021/12/04 10:15:31 by adlecler         ###   ########.fr       */
+/*   Updated: 2021/12/04 12:34:09 by adlecler         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+** La fonction ft_itoa() convertit un int en une string pointée par res.
+*/
 
 #include "libft.h"
 

@@ -6,9 +6,14 @@
 /*   By: adlecler <adlecler@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/03 09:46:12 by adlecler          #+#    #+#             */
-/*   Updated: 2021/12/03 10:10:46 by adlecler         ###   ########.fr       */
+/*   Updated: 2021/12/04 12:02:28 by adlecler         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+** La fonction ft_putstr_fd() permet d'afficher la string s sur
+** le file descriptor donné.
+*/
 
 #include "libft.h"
 

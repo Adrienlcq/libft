@@ -6,9 +6,14 @@
 /*   By: adlecler <adlecler@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/24 17:45:51 by adlecler          #+#    #+#             */
-/*   Updated: 2021/12/02 17:29:49 by adlecler         ###   ########.fr       */
+/*   Updated: 2021/12/04 11:54:32 by adlecler         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+** La fonction ft_memset() remplit les len premiers octets de la zone mémoire 
+** pointée par b avec l'octet c. 
+*/
 
 #include "libft.h"
 

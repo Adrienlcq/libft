@@ -6,9 +6,13 @@
 /*   By: adlecler <adlecler@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/24 16:37:52 by adlecler          #+#    #+#             */
-/*   Updated: 2021/12/02 17:28:24 by adlecler         ###   ########.fr       */
+/*   Updated: 2021/12/04 11:33:39 by adlecler         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+** La fonction ft_isascii() vérifie si l'on a un caractère ascii.
+*/
 
 #include "libft.h"
 

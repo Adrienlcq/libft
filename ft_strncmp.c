@@ -6,9 +6,15 @@
 /*   By: adlecler <adlecler@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/02 16:12:13 by adlecler          #+#    #+#             */
-/*   Updated: 2021/12/02 17:32:24 by adlecler         ###   ########.fr       */
+/*   Updated: 2021/12/04 12:23:45 by adlecler         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+** La fonction strcmp() ne compare que les n premiers caractères de s1 et s2. 
+** Elle renvoie un entier négatif, nul, ou positif, si s1 est respectivement
+** inférieure, égale ou supérieure à s2.
+*/
 
 #include "libft.h"
 

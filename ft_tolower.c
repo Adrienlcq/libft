@@ -6,9 +6,13 @@
 /*   By: adlecler <adlecler@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/25 16:25:13 by adlecler          #+#    #+#             */
-/*   Updated: 2021/12/02 17:32:40 by adlecler         ###   ########.fr       */
+/*   Updated: 2021/12/04 12:32:44 by adlecler         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+** La fonction ft_tolower() convertit la lettre c en minuscule si c'est possible.
+*/
 
 #include "libft.h"
 

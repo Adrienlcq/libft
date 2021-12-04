@@ -6,9 +6,17 @@
 /*   By: adlecler <adlecler@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/04 11:11:54 by adlecler          #+#    #+#             */
-/*   Updated: 2021/12/04 11:19:17 by adlecler         ###   ########.fr       */
+/*   Updated: 2021/12/04 12:12:34 by adlecler         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+** Applique la fonction f à chaque caractère de la
+** chaîne de caractères transmise comme argument, et
+** en passant son index comme premier argument. Chaque
+** caractère est transmis par adresse à f pour être
+** modifié si nécessaire.
+*/
 
 #include "libft.h"
 

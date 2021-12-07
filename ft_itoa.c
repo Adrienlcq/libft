@@ -6,7 +6,7 @@
 /*   By: adlecler <adlecler@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/04 09:16:28 by adlecler          #+#    #+#             */
-/*   Updated: 2021/12/04 12:34:09 by adlecler         ###   ########.fr       */
+/*   Updated: 2021/12/07 13:55:03 by adlecler         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -47,10 +47,7 @@ char	*ft_itoa(int n)
 		return (NULL);
 	res[len--] = '\0';
 	if (nb == 0)
-	{
 		res[0] = 48;
-		return (res);
-	}
 	if (nb < 0)
 	{
 		res[0] = '-';
@@ -66,6 +63,6 @@ char	*ft_itoa(int n)
 
 int	main(void)
 {
-	printf("%s\n", ft_itoa(-2147483648));
+	printf("%s\n", ft_itoa(-42));
 	return (0);
 }

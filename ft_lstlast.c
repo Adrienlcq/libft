@@ -6,7 +6,7 @@
 /*   By: adlecler <adlecler@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/07 16:10:17 by adlecler          #+#    #+#             */
-/*   Updated: 2021/12/07 16:13:23 by adlecler         ###   ########.fr       */
+/*   Updated: 2021/12/08 17:30:15 by adlecler         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,9 +14,7 @@
 
 t_list	*ft_lstlast(t_list *lst)
 {
-	if (!lst)
-		return (NULL);
-	while (lst)
+	while (lst != NULL && lst->next != NULL)
 		lst = lst->next;
 	return (lst);
 }

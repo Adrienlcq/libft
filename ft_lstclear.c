@@ -6,7 +6,7 @@
 /*   By: adlecler <adlecler@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/07 17:02:42 by adlecler          #+#    #+#             */
-/*   Updated: 2021/12/07 17:14:58 by adlecler         ###   ########.fr       */
+/*   Updated: 2021/12/08 17:42:49 by adlecler         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,12 +17,11 @@ void	ft_lstclear(t_list **lst, void (*del)(void*))
 	t_list	*tmp;
 
 	if (!*lst)
-		return (NULL);
+		return ;
 	while (*lst)
 	{
 		tmp = (*lst)->next;
-		(*del)((*lst)->content);
-		free(lst);
+		ft_lstdelone(*lst, (*del));
 		*lst = tmp;
 	}
 }

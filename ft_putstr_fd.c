@@ -6,7 +6,7 @@
 /*   By: adlecler <adlecler@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/03 09:46:12 by adlecler          #+#    #+#             */
-/*   Updated: 2021/12/04 12:02:28 by adlecler         ###   ########.fr       */
+/*   Updated: 2021/12/08 16:40:33 by adlecler         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,6 +22,8 @@ void	ft_putstr_fd(char *s, int fd)
 	int	i;
 
 	i = 0;
+	if (!s)
+		return ;
 	while (s[i] != '\0')
 	{
 		ft_putchar_fd(s[i], fd);

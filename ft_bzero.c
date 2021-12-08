@@ -6,7 +6,7 @@
 /*   By: adlecler <adlecler@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/24 18:25:46 by adlecler          #+#    #+#             */
-/*   Updated: 2021/12/04 11:26:28 by adlecler         ###   ########.fr       */
+/*   Updated: 2021/12/08 16:38:58 by adlecler         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,18 +19,17 @@
 
 void	ft_bzero(void *s, size_t n)
 {
-	int		i;
+	size_t	i;
 	char	*str;
 
 	i = 0;
 	str = (char *)s;
-	if (n > 0)
+	if (n != 0)
 	{
-		while (str[i] && n != 0)
+		while (i < n)
 		{
 			str[i] = '\0';
 			i++;
-			n--;
 		}
 	}
 }

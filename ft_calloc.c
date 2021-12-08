@@ -6,7 +6,7 @@
 /*   By: adlecler <adlecler@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/25 17:40:27 by adlecler          #+#    #+#             */
-/*   Updated: 2021/12/04 11:29:48 by adlecler         ###   ########.fr       */
+/*   Updated: 2021/12/08 16:39:20 by adlecler         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,12 +21,8 @@
 void	*ft_calloc(size_t count, size_t size)
 {
 	char	*res;
-	size_t	i;
 
-	i = 0;
-	if (count == 0 || size == 0)
-		return (NULL);
-	res = malloc(size * count);
+	res = malloc(count * size);
 	if (res == NULL)
 		return (NULL);
 	ft_bzero(res, count * size);

@@ -6,7 +6,7 @@
 /*   By: adlecler <adlecler@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/25 14:22:04 by adlecler          #+#    #+#             */
-/*   Updated: 2021/12/04 11:52:08 by adlecler         ###   ########.fr       */
+/*   Updated: 2021/12/08 15:35:23 by adlecler         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,10 +26,9 @@ void	*ft_memcpy(void *restrict dst, const void *restrict src, size_t n)
 
 	bufferdst = (char *)dst;
 	buffersrc = (char *)src;
-	while (n > 0)
-	{
-		bufferdst[n] = buffersrc[n];
-		n--;
-	}
+	if (src == dst)
+		return (dst);
+	while (n--)
+		*bufferdst++ = *buffersrc++;
 	return (dst);
 }

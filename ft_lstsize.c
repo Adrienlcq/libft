@@ -6,7 +6,7 @@
 /*   By: adlecler <adlecler@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/07 16:05:23 by adlecler          #+#    #+#             */
-/*   Updated: 2021/12/07 16:13:43 by adlecler         ###   ########.fr       */
+/*   Updated: 2021/12/08 15:22:48 by adlecler         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,8 +16,9 @@ int	ft_lstsize(t_list *lst)
 {
 	int	i;
 
+	i = 0;
 	if (!lst)
-		return (NULL);
+		return (0);
 	while (lst)
 	{
 		lst = lst->next;

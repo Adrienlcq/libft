@@ -6,7 +6,7 @@
 /*   By: adlecler <adlecler@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/04 09:16:28 by adlecler          #+#    #+#             */
-/*   Updated: 2021/12/07 13:55:03 by adlecler         ###   ########.fr       */
+/*   Updated: 2021/12/08 18:00:05 by adlecler         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,6 +21,8 @@ int	ft_get_size(long nbr)
 	int	len;
 
 	len = 0;
+	if (nbr == 0)
+		return (1);
 	if (nbr < 0)
 	{
 		len++;
@@ -59,10 +61,4 @@ char	*ft_itoa(int n)
 		nb = nb / 10;
 	}
 	return (res);
-}
-
-int	main(void)
-{
-	printf("%s\n", ft_itoa(-42));
-	return (0);
 }

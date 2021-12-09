@@ -13,6 +13,8 @@ SRCS		= 		ft_isalnum.c\
 					ft_toupper.c\
 					ft_atoi.c\
 					ft_strdup.c\
+					ft_split.c\
+					ft_strtrim.c\
 					ft_itoa.c\
 					ft_memset.c\
 					ft_bzero.c\

@@ -6,7 +6,7 @@
 /*   By: adlecler <adlecler@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/02 14:23:14 by adlecler          #+#    #+#             */
-/*   Updated: 2021/12/04 11:42:33 by adlecler         ###   ########.fr       */
+/*   Updated: 2021/12/09 13:44:07 by adlecler         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,11 +20,11 @@
 
 int	ft_memcmp(const void *s1, const void *s2, size_t n)
 {
-	char	*str1;
-	char	*str2;
+	unsigned char	*str1;
+	unsigned char	*str2;
 
-	str1 = (char *)s1;
-	str2 = (char *)s2;
+	str1 = (unsigned char *)s1;
+	str2 = (unsigned char *)s2;
 	if (str1 == str2 || n == 0)
 		return (0);
 	while (n > 0)

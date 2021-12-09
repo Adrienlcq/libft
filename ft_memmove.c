@@ -6,7 +6,7 @@
 /*   By: adlecler <adlecler@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/25 14:53:46 by adlecler          #+#    #+#             */
-/*   Updated: 2021/12/04 11:51:22 by adlecler         ###   ########.fr       */
+/*   Updated: 2021/12/09 13:42:52 by adlecler         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,28 +21,21 @@
 
 void	*ft_memmove(void *dst, const void *src, size_t len)
 {
-	char	*bufferdst;
-	char	*buffersrc;
-	size_t	i;
+	unsigned char	*bufferdst;
+	unsigned char	*buffersrc;
+	size_t			i;
 
-	bufferdst = (char *)dst;
-	buffersrc = (char *)src;
+	bufferdst = (unsigned char *)dst;
+	buffersrc = (unsigned char *)src;
 	i = 0;
+	if (dst == src)
+		return (dst);
 	if (bufferdst > buffersrc)
 	{
-		while (len > 0)
-		{
-			bufferdst[len] = buffersrc[len];
-			len--;
-		}
+		while (++i <= len)
+			bufferdst[len - i] = buffersrc[len - i];
 	}
 	else
-	{
-		while (i < len)
-		{
-			bufferdst[i] = buffersrc[i];
-			i++;
-		}
-	}
+		ft_memcpy(dst, src, len);
 	return (dst);
 }

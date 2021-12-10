@@ -30,6 +30,7 @@ SRCS		= 		ft_isalnum.c\
 					ft_putchar_fd.c\
 					ft_putstr_fd.c\
 					ft_putendl_fd.c\
+					ft_striteri.c\
 					ft_putnbr_fd.c
 
 SRCS_BONUS	=		ft_lstnew.c\
@@ -57,7 +58,7 @@ RM			= rm -f
 CFLAGS		= -Wall -Wextra -Werror -I.
 
 .c.o:
-			${CC} ${CFLAGS} ${HEAD } -c $< -o ${<:.c=.o}
+			${CC} ${CFLAGS} -c $< -o ${<:.c=.o}
 
 $(NAME):	${OBJS}
 			ar rc ${NAME} ${OBJS}

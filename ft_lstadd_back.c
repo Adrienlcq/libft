@@ -6,7 +6,7 @@
 /*   By: adlecler <adlecler@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/07 16:14:19 by adlecler          #+#    #+#             */
-/*   Updated: 2021/12/08 17:45:27 by adlecler         ###   ########.fr       */
+/*   Updated: 2021/12/10 21:01:32 by adlecler         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,5 +25,4 @@ void	ft_lstadd_back(t_list **alst, t_list *new)
 		tmp = ft_lstlast(*alst);
 		tmp->next = new;
 	}
-	new->next = NULL;
 }

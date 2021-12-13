@@ -6,7 +6,7 @@
 /*   By: adlecler <adlecler@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/03 10:14:30 by adlecler          #+#    #+#             */
-/*   Updated: 2021/12/10 20:37:17 by adlecler         ###   ########.fr       */
+/*   Updated: 2021/12/13 12:49:18 by adlecler         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,25 +22,23 @@
 char	*ft_substr(char const *s, unsigned int start, size_t len)
 {
 	char	*str;
-	size_t	s_len;
 
-	s_len = ft_strlen(s);
 	if (!s)
 		return (NULL);
 	if (start > (unsigned int)ft_strlen(s))
 		return (ft_calloc(1, sizeof(char)));
-	if (len > s_len)
-	{
-		str = (char*)malloc(sizeof(char) * (s_len + 1));
-		if (str == NULL)
-			return (NULL);
-		ft_memcpy(str, start + s, s_len);
-		return (str);
-	}
-	str = (char*)malloc(sizeof(char) * (len + 1));
+	if (len > ft_strlen(s))
+		str = malloc(sizeof(char) * ft_strlen(s));
+	else
+		str = (char *)malloc(sizeof(char) * (len + 1));
 	if (str == NULL)
 		return (NULL);
-	ft_memcpy(str, start + s, len);
-	str[len] = '\0';
+	if (len > ft_strlen(s))
+		ft_memcpy(str, start + s, ft_strlen(s));
+	else
+	{
+		ft_memcpy(str, start + s, len);
+		str[(int)len] = '\0';
+	}
 	return (str);
 }

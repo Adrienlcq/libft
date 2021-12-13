@@ -6,7 +6,7 @@
 /*   By: adlecler <adlecler@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/25 15:51:42 by adlecler          #+#    #+#             */
-/*   Updated: 2021/12/10 17:31:35 by adlecler         ###   ########.fr       */
+/*   Updated: 2021/12/13 15:34:49 by adlecler         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,9 +14,9 @@
 
 size_t	ft_strlcat(char *dst, const char *src, size_t dstsize)
 {
-	unsigned int	i;
-	unsigned int	j;
-	unsigned int	res;
+	size_t	i;
+	size_t	j;
+	size_t	res;
 
 	i = 0;
 	j = 0;
@@ -25,7 +25,7 @@ size_t	ft_strlcat(char *dst, const char *src, size_t dstsize)
 		i++;
 	while (src[res])
 		res++;
-	if (dstsize <= i)
+	if (dstsize < i)
 		res = res + dstsize;
 	else
 		res = res + i;
